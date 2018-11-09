@@ -16,7 +16,7 @@ class UI {
                         "btn btn-primary btn-block mb-4">View Profile</a>
                     </div>
                     <div class="col-md-9">
-                        <span class="badge badge-primary">Public Repos: ${user.public_repo}</span>
+                        <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
                         <span class="badge badge-secondary">Public Gists: ${user.public_gists}</span>
                         <span class="badge badge-success">Followers: ${user.followers}</span>
                         <span class="badge badge-primary">Following: ${user.following}</span>
